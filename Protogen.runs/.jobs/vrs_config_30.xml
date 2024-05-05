@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="Protogen_axis_data_fifo_0_0_synth_1" LaunchDir="C:/Protogen/Protogen.runs/Protogen_axis_data_fifo_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Protogen_xbar_2_synth_1" LaunchDir="C:/Protogen/Protogen.runs/Protogen_xbar_2_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Protogen_auto_us_2_synth_1" LaunchDir="C:/Protogen/Protogen.runs/Protogen_auto_us_2_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Protogen_auto_us_3_synth_1" LaunchDir="C:/Protogen/Protogen.runs/Protogen_auto_us_3_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Protogen_axi_dma_0_1_synth_1" LaunchDir="C:/Protogen/Protogen.runs/Protogen_axi_dma_0_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Protogen_xbar_3_synth_1" LaunchDir="C:/Protogen/Protogen.runs/Protogen_xbar_3_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Protogen_axi_bram_ctrl_0_1_synth_1" LaunchDir="C:/Protogen/Protogen.runs/Protogen_axi_bram_ctrl_0_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Protogen_processing_system7_0_2_synth_1" LaunchDir="C:/Protogen/Protogen.runs/Protogen_processing_system7_0_2_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Protogen_auto_pc_3_synth_1" LaunchDir="C:/Protogen/Protogen.runs/Protogen_auto_pc_3_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Protogen_auto_pc_4_synth_1" LaunchDir="C:/Protogen/Protogen.runs/Protogen_auto_pc_4_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Protogen_auto_pc_5_synth_1" LaunchDir="C:/Protogen/Protogen.runs/Protogen_auto_pc_5_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="C:/Protogen/Protogen.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="Protogen_axis_data_fifo_0_0_synth_1"/>
+		<Parent Id="Protogen_xbar_2_synth_1"/>
+		<Parent Id="Protogen_auto_us_2_synth_1"/>
+		<Parent Id="Protogen_auto_us_3_synth_1"/>
+		<Parent Id="Protogen_axi_dma_0_1_synth_1"/>
+		<Parent Id="Protogen_xbar_3_synth_1"/>
+		<Parent Id="Protogen_axi_bram_ctrl_0_1_synth_1"/>
+		<Parent Id="Protogen_processing_system7_0_2_synth_1"/>
+		<Parent Id="Protogen_auto_pc_3_synth_1"/>
+		<Parent Id="Protogen_auto_pc_4_synth_1"/>
+		<Parent Id="Protogen_auto_pc_5_synth_1"/>
+	</Run>
+	<Run Id="impl_1" LaunchDir="C:/Protogen/Protogen.runs/impl_1" FlowId="Vivado_Implementation" FromStepId="init_design" ToStepId="write_bitstream">
+		<Parent Id="synth_1"/>
+		<Parent Id="Protogen_axis_data_fifo_0_0_synth_1"/>
+		<Parent Id="Protogen_xbar_2_synth_1"/>
+		<Parent Id="Protogen_auto_us_2_synth_1"/>
+		<Parent Id="Protogen_auto_us_3_synth_1"/>
+		<Parent Id="Protogen_axi_dma_0_1_synth_1"/>
+		<Parent Id="Protogen_xbar_3_synth_1"/>
+		<Parent Id="Protogen_axi_bram_ctrl_0_1_synth_1"/>
+		<Parent Id="Protogen_processing_system7_0_2_synth_1"/>
+		<Parent Id="Protogen_auto_pc_3_synth_1"/>
+		<Parent Id="Protogen_auto_pc_4_synth_1"/>
+		<Parent Id="Protogen_auto_pc_5_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+		<Parameter Name="runs.enableClusterConf" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

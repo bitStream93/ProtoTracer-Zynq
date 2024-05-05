@@ -1,0 +1,128 @@
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.2.1 (win64) Build 3414424 Sun Dec 19 10:57:22 MST 2021
+| Date         : Wed Feb  9 20:35:07 2022
+| Host         : SurfaceBook running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+--------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Protogen_smartconnect_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Protogen_smartconnect_0_0 (xilinx.com:ip:smartconnect:1.0) from (Rev. 16) to (Rev. 17)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection and Interface Information
+---------------------------------------
+
+Connection and Interface information can not be compared for deferred elaboration IPs.
+Protogen_smartconnect_0_0 may have connection or interface changes.
+
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.2.1 (win64) Build 3414424 Sun Dec 19 10:57:22 MST 2021
+| Date         : Wed Feb  9 20:35:07 2022
+| Host         : SurfaceBook running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+--------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Protogen_rst_Zynq_62M_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of Protogen_rst_Zynq_62M_0 (xilinx.com:ip:proc_sys_reset:5.0 (Rev. 13)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.2.1 (win64) Build 3414424 Sun Dec 19 10:57:22 MST 2021
+| Date         : Wed Feb  9 20:35:07 2022
+| Host         : SurfaceBook running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+--------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Protogen_rst_Zynq_100M_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of Protogen_rst_Zynq_100M_0 (xilinx.com:ip:proc_sys_reset:5.0 (Rev. 13)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.2.1 (win64) Build 3414424 Sun Dec 19 10:57:22 MST 2021
+| Date         : Wed Feb  9 20:35:07 2022
+| Host         : SurfaceBook running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+--------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Protogen_processing_system7_0_2'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of Protogen_processing_system7_0_2 (xilinx.com:ip:processing_system7:5.5 (Rev. 6)) to Vivado generation flows.
+
+2. Upgrade messages
+-------------------
+
+WARNING: upgrade cannot add parameter PCW_TRACE_INTERNAL_WIDTH with default value 32 : a parameter called PCW_TRACE_INTERNAL_WIDTH already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_USE_AXI_NONSECURE with default value 0 : a parameter called PCW_USE_AXI_NONSECURE already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_EN_PTP_ENET0 with default value 1 : a parameter called PCW_EN_PTP_ENET0 already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_EN_PTP_ENET0 with default value 1 : a parameter called PCW_EN_PTP_ENET0 already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_GP0_NUM_WRITE_THREADS with default value 4 : a parameter called PCW_GP0_NUM_WRITE_THREADS already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_GP0_NUM_READ_THREADS with default value 4 : a parameter called PCW_GP0_NUM_READ_THREADS already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_GP1_NUM_WRITE_THREADS with default value 4 : a parameter called PCW_GP1_NUM_WRITE_THREADS already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_GP1_NUM_READ_THREADS with default value 4 : a parameter called PCW_GP1_NUM_READ_THREADS already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_GP0_EN_MODIFIABLE_TXN with default value 0 : a parameter called PCW_GP0_EN_MODIFIABLE_TXN already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_GP1_EN_MODIFIABLE_TXN with default value 0 : a parameter called PCW_GP1_EN_MODIFIABLE_TXN already exists in processing_system7_v5_5
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.2.1 (win64) Build 3414424 Sun Dec 19 10:57:22 MST 2021
+| Date         : Wed Feb  9 20:34:50 2022
+| Host         : SurfaceBook running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+--------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'MBMC'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of MBMC (xilinx.com:ip:axi_bram_ctrl:4.1) from (Rev. 5) to (Rev. 6)
+
+2. Upgrade messages
+-------------------
+
+WARNING: upgrade cannot remove parameter C_SELECT_XPM : there is no parameter called C_SELECT_XPM in axi_bram_ctrl_v4_1
+

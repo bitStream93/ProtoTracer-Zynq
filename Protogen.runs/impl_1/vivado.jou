@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Thu Dec  2 13:56:06 2021
+# Process ID: 30244
+# Current directory: C:/Protogen/Protogen.runs/impl_1
+# Command line: vivado.exe -log Protogen_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Protogen_wrapper.tcl -notrace
+# Log file: C:/Protogen/Protogen.runs/impl_1/Protogen_wrapper.vdi
+# Journal file: C:/Protogen/Protogen.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source Protogen_wrapper.tcl -notrace

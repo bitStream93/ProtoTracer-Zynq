@@ -1,0 +1,23 @@
+Determining if files xintc.h exist failed with the following output:
+Change Dir: C:/Protogen/Prototracer/Protogen/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/libmetal_v2_1/build_libmetal/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Xilinx/Vitis/2021.1/gnuwin/bin/make.exe" "cmTC_0ba7b/fast"
+C:/Xilinx/Vitis/2021.1/gnuwin/bin/make.exe -f CMakeFiles/cmTC_0ba7b.dir/build.make CMakeFiles/cmTC_0ba7b.dir/build
+make.exe[1]: Entering directory 'C:/Protogen/Prototracer/Protogen/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/libmetal_v2_1/build_libmetal/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0ba7b.dir/CheckIncludeFiles.c.obj
+C:/Xilinx/Vitis/2021.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/arm-none-eabi-gcc.exe   -O2 -c -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns -IC:/Protogen/Prototracer/Protogen/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/include    -o CMakeFiles/cmTC_0ba7b.dir/CheckIncludeFiles.c.obj   -c C:/Protogen/Prototracer/Protogen/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/libmetal_v2_1/build_libmetal/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+C:/Protogen/Prototracer/Protogen/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/libmetal_v2_1/build_libmetal/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: xintc.h: No such file or directory
+    2 | #include <xintc.h>
+      |          ^~~~~~~~~
+compilation terminated.
+make.exe[1]: *** [CMakeFiles/cmTC_0ba7b.dir/build.make:66: CMakeFiles/cmTC_0ba7b.dir/CheckIncludeFiles.c.obj] Error 1
+make.exe[1]: Leaving directory 'C:/Protogen/Prototracer/Protogen/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/libmetal_v2_1/build_libmetal/CMakeFiles/CMakeTmp'
+make.exe: *** [Makefile:126: cmTC_0ba7b/fast] Error 2
+
+Source:
+/* */
+#include <xintc.h>
+
+
+int main(void){return 0;}
+

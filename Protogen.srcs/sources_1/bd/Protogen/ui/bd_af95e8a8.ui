@@ -1,0 +1,275 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Addressing View_Layers":"/Zynq_FCLK_RESET0_N:false|/rst_Zynq_50M_peripheral_aresetn:false|/Zynq_FCLK_CLK0:false|/CDMA_cdma_introut:false|/rst_Zynq_100M_peripheral_aresetn:false|/Zynq_FCLK_CLK3:false|/Audio_PLL_aud_clk:false|/Zynq_FCLK_RESET0_N1:false|/I2S_RX_irq:false|/microblaze_0_Clk:false|/I2S_TX_irq:false|/rst_Zynq_100M_mb_reset:false|/rst_Zynq_62M_peripheral_aresetn:false|/rst_Audio_PLL_12M_peripheral_reset:false|/Zynq_FCLK_CLK1:false|/mdm_1_debug_sys_rst:false|/rst_Zynq_100M_bus_struct_reset:false|/i2s_receiver_0_irq:false|/rst_Zynq_200M_peripheral_aresetn:false|/i2s_transmitter_0_irq:false|/Zynq_FCLK_CLK2:false|/rst_Zynq_62M_1_peripheral_aresetn:false|",
+   "Addressing View_ScaleFactor":"0.746686",
+   "Addressing View_TopLeft":"-121,-526",
+   "Color Coded_ExpandedHierarchyInLayout":"",
+   "Color Coded_Layout":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 6 -x 1770 -y 710 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 6 -x 1770 -y 740 -defaultsOSRD
+preplace port port-id_I2S_TX_LRCLK -pg 1 -lvl 6 -x 1770 -y 160 -defaultsOSRD
+preplace port port-id_I2S_TX_SCLK -pg 1 -lvl 6 -x 1770 -y 190 -defaultsOSRD
+preplace port port-id_I2S_TX_DOUT -pg 1 -lvl 6 -x 1770 -y 220 -defaultsOSRD
+preplace port port-id_I2S_RX_DIN -pg 1 -lvl 0 -x 0 -y 420 -defaultsOSRD
+preplace port port-id_I2S_RX_SCLK -pg 1 -lvl 6 -x 1770 -y 390 -defaultsOSRD
+preplace port port-id_I2S_RX_LRCLK -pg 1 -lvl 6 -x 1770 -y 360 -defaultsOSRD
+preplace portBus PANEL_DATA -pg 1 -lvl 6 -x 1770 -y 810 -defaultsOSRD
+preplace portBus PANEL_ADDR -pg 1 -lvl 6 -x 1770 -y 840 -defaultsOSRD
+preplace portBus PANEL_CTRL -pg 1 -lvl 6 -x 1770 -y 870 -defaultsOSRD
+preplace portBus GND -pg 1 -lvl 6 -x 1770 -y 920 -defaultsOSRD
+preplace portBus I2S_MCLK -pg 1 -lvl 6 -x 1770 -y 950 -defaultsOSRD
+preplace portBus I2S_RX_SEL -pg 1 -lvl 6 -x 1770 -y 980 -defaultsOSRD
+preplace inst GND_CONST -pg 1 -lvl 5 -x 1590 -y 980 -defaultsOSRD
+preplace inst rst_Audio_PLL_12M -pg 1 -lvl 3 -x 830 -y 110 -swap {0 4 2 3 1 5 6 9 7 8} -defaultsOSRD
+preplace inst Audio_PLL -pg 1 -lvl 2 -x 420 -y 80 -defaultsOSRD
+preplace inst Zynq -pg 1 -lvl 2 -x 420 -y 800 -defaultsOSRD
+preplace inst Interrupt_Concat -pg 1 -lvl 1 -x 120 -y 310 -swap {1 0 2 3 4} -defaultsOSRD
+preplace inst I2S_TX -pg 1 -lvl 5 -x 1590 -y 180 -defaultsOSRD
+preplace inst I2S_RX -pg 1 -lvl 4 -x 1220 -y 350 -defaultsOSRD
+preplace inst GP1_Interconnect -pg 1 -lvl 3 -x 830 -y 310 -swap {0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 80 79} -defaultsOSRD
+preplace inst rst_Zynq_100M -pg 1 -lvl 2 -x 420 -y 320 -defaultsOSRD
+preplace inst rst_Zynq_125M -pg 1 -lvl 3 -x 830 -y 620 -swap {4 0 1 2 3 5 6 7 8 9} -defaultsOSRD
+preplace inst rst_Zynq_62M -pg 1 -lvl 4 -x 1220 -y 960 -swap {0 3 2 1 4 6 7 8 9 5} -defaultsOSRD
+preplace inst GP0_Interconnect -pg 1 -lvl 4 -x 1220 -y 540 -swap {0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 74 73} -defaultsOSRD
+preplace inst Matrix_Driver -pg 1 -lvl 5 -x 1590 -y 840 -defaultsOSRD
+preplace netloc Audio_PLL_aud_clk 1 2 3 630 10 1040 190 NJ
+preplace netloc Audio_PLL_locked 1 2 1 N 90
+preplace netloc I2S_RX_DIN_1 1 0 4 NJ 420 NJ 420 NJ 420 NJ
+preplace netloc Matrix_Driver_PANEL_ADDR 1 5 1 NJ 840
+preplace netloc Matrix_Driver_PANEL_CTRL 1 5 1 1740J 860n
+preplace netloc Matrix_Driver_PANEL_DATA 1 5 1 1750J 810n
+preplace netloc Zynq_FCLK_CLK0 1 1 4 230 940 660 750 1040 820 NJ
+preplace netloc Zynq_FCLK_CLK1 1 1 4 220 430 650 390 1020 170 1430
+preplace netloc Zynq_FCLK_CLK2 1 2 3 NJ 860 1030 860 NJ
+preplace netloc Zynq_FCLK_RESET0_N1 1 1 3 210 150 630 980 N
+preplace netloc i2s_receiver_0_irq 1 0 5 30 220 NJ 220 NJ 220 NJ 220 1390
+preplace netloc i2s_receiver_0_lrclk_out 1 4 2 NJ 360 NJ
+preplace netloc i2s_receiver_0_sclk_out 1 4 2 NJ 380 1740J
+preplace netloc i2s_transmitter_0_irq 1 0 6 20 210 NJ 210 NJ 210 NJ 210 1410J 310 1740
+preplace netloc i2s_transmitter_0_lrclk_out 1 5 1 1750J 160n
+preplace netloc i2s_transmitter_0_sclk_out 1 5 1 NJ 190
+preplace netloc i2s_transmitter_0_sdata_0_out 1 5 1 1750J 210n
+preplace netloc rst_Audio_PLL_12M_peripheral_reset 1 3 2 1030 200 1420J
+preplace netloc rst_Zynq_100M_peripheral_aresetn 1 2 3 610 230 1050 180 1440
+preplace netloc rst_Zynq_200M_peripheral_aresetn 1 3 2 1020 840 NJ
+preplace netloc rst_Zynq_62M_1_peripheral_aresetn 1 4 1 1420 880n
+preplace netloc xlconcat_0_dout 1 1 1 210 310n
+preplace netloc xlconstant_0_dout 1 5 1 1750J 920n
+preplace netloc GP0_Interconnect_M00_AXI 1 4 1 1400 540n
+preplace netloc I2S_RX_m_axis_aud 1 4 1 1400 130n
+preplace netloc Zynq_M_AXI_GP0 1 2 2 640 520 NJ
+preplace netloc Zynq_M_AXI_GP1 1 2 1 620 290n
+preplace netloc processing_system7_0_DDR 1 2 4 NJ 720 NJ 720 1430J 710 NJ
+preplace netloc processing_system7_0_FIXED_IO 1 2 4 NJ 740 NJ 740 NJ 740 NJ
+preplace netloc smartconnect_0_M00_AXI 1 3 1 1010 280n
+preplace netloc smartconnect_0_M01_AXI 1 3 2 1000 110 NJ
+levelinfo -pg 1 0 120 420 830 1220 1590 1770
+pagesize -pg 1 -db -bbox -sgen -130 0 1940 1060
+",
+   "Color Coded_ScaleFactor":"0.739893",
+   "Color Coded_TopLeft":"-122,-278",
+   "Default View_Layers":"/rst_Zynq_100M_bus_struct_reset:true|/rst_Zynq_62M_peripheral_aresetn:true|/Zynq_FCLK_RESET0_N1:true|/Zynq_FCLK_CLK1:true|/microblaze_0_Clk:true|/mdm_1_debug_sys_rst:true|/rst_Zynq_100M_peripheral_aresetn:true|/rst_Audio_PLL_12M_peripheral_reset:true|/Audio_PLL_aud_clk:true|/I2S_RX_irq:true|/rst_Zynq_100M_mb_reset:true|/I2S_TX_irq:true|/i2s_receiver_0_irq:true|/rst_Zynq_200M_peripheral_aresetn:true|/Zynq_FCLK_CLK0:true|/i2s_transmitter_0_irq:true|/Zynq_FCLK_CLK2:true|/rst_Zynq_62M_1_peripheral_aresetn:true|",
+   "Default View_ScaleFactor":"0.960141",
+   "Default View_TopLeft":"1,-103",
+   "Display-PortTypeClock":"true",
+   "Display-PortTypeInterrupt":"true",
+   "Display-PortTypeOthers":"true",
+   "Display-PortTypeReset":"true",
+   "ExpandedHierarchyInLayout":"",
+   "Grouping and No Loops_ExpandedHierarchyInLayout":"",
+   "Grouping and No Loops_Layers":"/Zynq_FCLK_RESET0_N:true|/rst_Zynq_50M_peripheral_aresetn:true|/Zynq_FCLK_CLK0:true|/CDMA_cdma_introut:true|/rst_Zynq_100M_peripheral_aresetn:true|/Zynq_FCLK_CLK3:true|/Audio_PLL_aud_clk:true|/Zynq_FCLK_RESET0_N1:true|/I2S_RX_irq:true|/microblaze_0_Clk:true|/I2S_TX_irq:true|/rst_Zynq_100M_mb_reset:true|/rst_Zynq_62M_peripheral_aresetn:true|/rst_Audio_PLL_12M_peripheral_reset:true|/Zynq_FCLK_CLK1:true|/mdm_1_debug_sys_rst:true|/rst_Zynq_100M_bus_struct_reset:true|",
+   "Grouping and No Loops_Layout":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port group_1 -pg 1 -lvl 6 -x 1680 -y 470 -defaultsOSRD
+preplace port group_2 -pg 1 -lvl 6 -x 1680 -y 770 -defaultsOSRD
+preplace port group_3 -pg 1 -lvl 6 -x 1680 -y 1010 -defaultsOSRD
+preplace port group_4 -pg 1 -lvl 6 -x 1680 -y 130 -defaultsOSRD
+preplace port port-id_I2S_RX_DIN -pg 1 -lvl 0 -x 0 -y 230 -defaultsOSRD
+preplace portBus GND -pg 1 -lvl 6 -x 1680 -y 800 -defaultsOSRD
+preplace portBus I2S_MCLK -pg 1 -lvl 6 -x 1680 -y 830 -defaultsOSRD
+preplace portBus I2S_RX_SEL -pg 1 -lvl 6 -x 1680 -y 860 -defaultsOSRD
+preplace inst GND_CONST -pg 1 -lvl 5 -x 1540 -y 830 -defaultsOSRD -pinBusDir dout right -pinBusY dout 0R
+preplace inst rst_Audio_PLL_12M -pg 1 -lvl 3 -x 790 -y 70 -swap {0 4 2 3 1 5 6 9 7 8} -defaultsOSRD -pinDir slowest_sync_clk left -pinY slowest_sync_clk 0L -pinDir ext_reset_in left -pinY ext_reset_in 80L -pinDir aux_reset_in left -pinY aux_reset_in 40L -pinDir mb_debug_sys_rst left -pinY mb_debug_sys_rst 60L -pinDir dcm_locked left -pinY dcm_locked 20L -pinDir mb_reset right -pinY mb_reset 0R -pinBusDir bus_struct_reset right -pinBusY bus_struct_reset 20R -pinBusDir peripheral_reset right -pinBusY peripheral_reset 80R -pinBusDir interconnect_aresetn right -pinBusY interconnect_aresetn 40R -pinBusDir peripheral_aresetn right -pinBusY peripheral_aresetn 60R
+preplace inst Audio_PLL -pg 1 -lvl 2 -x 380 -y 70 -swap {2 3 0 1} -defaultsOSRD -pinDir resetn right -pinY resetn 80R -pinDir clk_in1 right -pinY clk_in1 100R -pinDir aud_clk right -pinY aud_clk 0R -pinDir locked right -pinY locked 20R
+preplace inst Zynq -pg 1 -lvl 2 -x 380 -y 550 -swap {84 5 2 3 4 44 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 1 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 86 0 85 88 83 89 87} -defaultsOSRD -pinBusDir group_1 right -pinBusY group_1 460R -pinDir USBIND_0 right -pinY USBIND_0 40R -pinDir M_AXI_GP0 right -pinY M_AXI_GP0 420R -pinDir M_AXI_GP1 right -pinY M_AXI_GP1 20R -pinDir M_AXI_GP0_ACLK right -pinY M_AXI_GP0_ACLK 480R -pinDir M_AXI_GP1_ACLK right -pinY M_AXI_GP1_ACLK 0R -pinBusDir IRQ_F2P left -pinBusY IRQ_F2P 0L -pinDir FCLK_CLK0 right -pinY FCLK_CLK0 520R -pinDir FCLK_CLK1 right -pinY FCLK_CLK1 440R -pinDir FCLK_CLK2 right -pinY FCLK_CLK2 560R -pinDir FCLK_RESET0_N right -pinY FCLK_RESET0_N 500R
+preplace inst Interrupt_Concat -pg 1 -lvl 1 -x 110 -y 470 -swap {1 0 2 3 4} -defaultsOSRD -pinBusDir In0 right -pinBusY In0 20R -pinBusDir In1 right -pinBusY In1 0R -pinBusDir In2 left -pinBusY In2 0L -pinBusDir In3 left -pinBusY In3 20L -pinBusDir dout right -pinBusY dout 80R
+preplace inst I2S_TX -pg 1 -lvl 5 -x 1540 -y 470 -swap {0 18 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 1 19 20 21 22 24 27 23 28 25 26 29} -defaultsOSRD -pinBusDir group_1 right -pinBusY group_1 0R -pinDir s_axi_ctrl left -pinY s_axi_ctrl 100L -pinDir s_axis_aud left -pinY s_axis_aud 0L -pinDir s_axi_ctrl_aclk left -pinY s_axi_ctrl_aclk 140L -pinDir s_axi_ctrl_aresetn left -pinY s_axi_ctrl_aresetn 200L -pinDir aud_mclk left -pinY aud_mclk 120L -pinDir aud_mrst left -pinY aud_mrst 220L -pinDir s_axis_aud_aclk left -pinY s_axis_aud_aclk 160L -pinDir s_axis_aud_aresetn left -pinY s_axis_aud_aresetn 180L -pinDir irq left -pinY irq 240L
+preplace inst I2S_RX -pg 1 -lvl 4 -x 1210 -y 130 -swap {0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 25 28 23 24 26 29 30 27} -defaultsOSRD -pinBusDir group_1 right -pinBusY group_1 0R -pinDir s_axi_ctrl left -pinY s_axi_ctrl 0L -pinDir m_axis_aud right -pinY m_axis_aud 340R -pinDir s_axi_ctrl_aclk left -pinY s_axi_ctrl_aclk 60L -pinDir s_axi_ctrl_aresetn left -pinY s_axi_ctrl_aresetn 300L -pinDir aud_mclk left -pinY aud_mclk 20L -pinDir aud_mrst left -pinY aud_mrst 40L -pinDir m_axis_aud_aclk left -pinY m_axis_aud_aclk 80L -pinDir m_axis_aud_aresetn left -pinY m_axis_aud_aresetn 320L -pinDir irq left -pinY irq 340L -pinDir sdata_0_in left -pinY sdata_0_in 100L
+preplace inst GP1_Interconnect -pg 1 -lvl 3 -x 790 -y 550 -swap {0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 80 79} -defaultsOSRD -pinDir S00_AXI left -pinY S00_AXI 20L -pinDir M00_AXI right -pinY M00_AXI 0R -pinDir M01_AXI right -pinY M01_AXI 20R -pinDir aclk left -pinY aclk 60L -pinDir aresetn left -pinY aresetn 40L
+preplace inst rst_Zynq_100M -pg 1 -lvl 2 -x 380 -y 290 -swap {9 8 2 3 4 0 1 5 6 7} -defaultsOSRD -pinDir slowest_sync_clk right -pinY slowest_sync_clk 120R -pinDir ext_reset_in right -pinY ext_reset_in 100R -pinDir aux_reset_in left -pinY aux_reset_in 0L -pinDir mb_debug_sys_rst left -pinY mb_debug_sys_rst 20L -pinDir dcm_locked left -pinY dcm_locked 40L -pinDir mb_reset right -pinY mb_reset 0R -pinBusDir bus_struct_reset right -pinBusY bus_struct_reset 20R -pinBusDir peripheral_reset right -pinBusY peripheral_reset 40R -pinBusDir interconnect_aresetn right -pinBusY interconnect_aresetn 60R -pinBusDir peripheral_aresetn right -pinBusY peripheral_aresetn 80R
+preplace inst rst_Zynq_125M -pg 1 -lvl 3 -x 790 -y 830 -swap {4 0 1 2 3 5 6 7 8 9} -defaultsOSRD -pinDir slowest_sync_clk left -pinY slowest_sync_clk 80L -pinDir ext_reset_in left -pinY ext_reset_in 0L -pinDir aux_reset_in left -pinY aux_reset_in 20L -pinDir mb_debug_sys_rst left -pinY mb_debug_sys_rst 40L -pinDir dcm_locked left -pinY dcm_locked 60L -pinDir mb_reset right -pinY mb_reset 0R -pinBusDir bus_struct_reset right -pinBusY bus_struct_reset 20R -pinBusDir peripheral_reset right -pinBusY peripheral_reset 40R -pinBusDir interconnect_aresetn right -pinBusY interconnect_aresetn 60R -pinBusDir peripheral_aresetn right -pinBusY peripheral_aresetn 80R
+preplace inst rst_Zynq_62M -pg 1 -lvl 4 -x 1210 -y 1170 -swap {0 3 2 1 4 6 7 8 9 5} -defaultsOSRD -pinDir slowest_sync_clk left -pinY slowest_sync_clk 0L -pinDir ext_reset_in left -pinY ext_reset_in 60L -pinDir aux_reset_in left -pinY aux_reset_in 40L -pinDir mb_debug_sys_rst left -pinY mb_debug_sys_rst 20L -pinDir dcm_locked left -pinY dcm_locked 80L -pinDir mb_reset right -pinY mb_reset 20R -pinBusDir bus_struct_reset right -pinBusY bus_struct_reset 40R -pinBusDir peripheral_reset right -pinBusY peripheral_reset 60R -pinBusDir interconnect_aresetn right -pinBusY interconnect_aresetn 80R -pinBusDir peripheral_aresetn right -pinBusY peripheral_aresetn 0R
+preplace inst GP0_Interconnect -pg 1 -lvl 4 -x 1210 -y 970 -swap {0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 74 73} -defaultsOSRD -pinDir S00_AXI left -pinY S00_AXI 0L -pinDir M00_AXI right -pinY M00_AXI 40R -pinDir aclk left -pinY aclk 40L -pinDir aresetn left -pinY aresetn 20L
+preplace inst Matrix_Driver -pg 1 -lvl 5 -x 1540 -y 1010 -defaultsOSRD -pinBusDir group_1 right -pinBusY group_1 0R -pinDir s_axi left -pinY s_axi 0L -pinDir s_axi_aclk left -pinY s_axi_aclk 60L -pinDir s_axi_aresetn left -pinY s_axi_aresetn 80L -pinDir panel_clk left -pinY panel_clk 100L -pinDir panel_resetn left -pinY panel_resetn 160L
+preplace netloc netgroup_1 1 5 1 NJ 470
+preplace netloc netgroup_2 1 2 4 580J 770 NJ 770 NJ 770 NJ
+preplace netloc netgroup_3 1 5 1 NJ 1010
+preplace netloc netgroup_4 1 4 2 NJ 130 NJ
+preplace netloc Audio_PLL_aud_clk 1 2 3 600 10 1040 70 1420
+preplace netloc Audio_PLL_locked 1 2 1 N 90
+preplace netloc I2S_RX_DIN_1 1 0 4 NJ 230 NJ 230 NJ 230 NJ
+preplace netloc Zynq_FCLK_CLK0 1 2 3 620 1070 1020 1070 NJ
+preplace netloc Zynq_FCLK_CLK1 1 2 3 560 210 1040 590 1400
+preplace netloc Zynq_FCLK_CLK2 1 2 3 NJ 1110 1000 1110 NJ
+preplace netloc Zynq_FCLK_RESET0_N1 1 2 2 600 1230 N
+preplace netloc i2s_receiver_0_irq 1 1 3 N 470 NJ 470 NJ
+preplace netloc i2s_transmitter_0_irq 1 1 4 NJ 490 NJ 490 960J 710 N
+preplace netloc rst_Audio_PLL_12M_peripheral_reset 1 3 2 1000 690 NJ
+preplace netloc rst_Zynq_100M_peripheral_aresetn 1 2 3 580 430 1020 610 1380
+preplace netloc rst_Zynq_200M_peripheral_aresetn 1 3 2 980 1090 NJ
+preplace netloc rst_Zynq_62M_1_peripheral_aresetn 1 4 1 N 1170
+preplace netloc xlconcat_0_dout 1 1 1 N 550
+preplace netloc xlconstant_0_dout 1 5 1 1660J 800n
+preplace netloc GP0_Interconnect_M00_AXI 1 4 1 N 1010
+preplace netloc I2S_RX_m_axis_aud 1 4 1 N 470
+preplace netloc Zynq_M_AXI_GP0 1 2 2 NJ 970 N
+preplace netloc Zynq_M_AXI_GP1 1 2 1 N 570
+preplace netloc smartconnect_0_M00_AXI 1 3 1 980 130n
+preplace netloc smartconnect_0_M01_AXI 1 3 2 N 570 NJ
+levelinfo -pg 1 0 110 380 790 1210 1540 1680
+pagesize -pg 1 -db -bbox -sgen -130 0 1830 1310
+",
+   "Grouping and No Loops_ScaleFactor":"0.780175",
+   "Grouping and No Loops_TopLeft":"-120,-112",
+   "Interfaces View_ExpandedHierarchyInLayout":"",
+   "Interfaces View_Layers":"/Zynq_FCLK_RESET0_N:false|/rst_Zynq_50M_peripheral_aresetn:false|/Zynq_FCLK_CLK0:false|/CDMA_cdma_introut:false|/rst_Zynq_100M_peripheral_aresetn:false|/Zynq_FCLK_CLK3:false|/Zynq_FCLK_CLK1:false|/Audio_PLL_aud_clk:false|/rst_Zynq_100M_mb_reset:false|/rst_Zynq_100M_bus_struct_reset:false|/mdm_1_debug_sys_rst:false|/microblaze_0_Clk:false|/I2S_TX_irq:false|/rst_Zynq_62M_peripheral_aresetn:false|/rst_Audio_PLL_12M_peripheral_reset:false|/Zynq_FCLK_RESET0_N1:false|/I2S_RX_irq:false|/i2s_receiver_0_irq:false|/rst_Zynq_200M_peripheral_aresetn:false|/i2s_transmitter_0_irq:false|/Zynq_FCLK_CLK2:false|/rst_Zynq_62M_1_peripheral_aresetn:false|",
+   "Interfaces View_Layout":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 5 -x 1010 -y 150 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 5 -x 1010 -y 180 -defaultsOSRD
+preplace port port-id_I2S_TX_LRCLK -pg 1 -lvl 5 -x 1010 -y 270 -defaultsOSRD
+preplace port port-id_I2S_TX_SCLK -pg 1 -lvl 5 -x 1010 -y 300 -defaultsOSRD
+preplace port port-id_I2S_TX_DOUT -pg 1 -lvl 5 -x 1010 -y 240 -defaultsOSRD
+preplace port port-id_I2S_RX_DIN -pg 1 -lvl 0 -x 0 -y 20 -defaultsOSRD
+preplace port port-id_I2S_RX_SCLK -pg 1 -lvl 5 -x 1010 -y 210 -defaultsOSRD
+preplace port port-id_I2S_RX_LRCLK -pg 1 -lvl 5 -x 1010 -y 110 -defaultsOSRD
+preplace portBus PANEL_DATA -pg 1 -lvl 5 -x 1010 -y 80 -defaultsOSRD
+preplace portBus PANEL_ADDR -pg 1 -lvl 5 -x 1010 -y 20 -defaultsOSRD
+preplace portBus PANEL_CTRL -pg 1 -lvl 5 -x 1010 -y 50 -defaultsOSRD
+preplace inst Zynq -pg 1 -lvl 1 -x 160 -y 200 -defaultsOSRD
+preplace inst I2S_TX -pg 1 -lvl 4 -x 900 -y 70 -defaultsOSRD
+preplace inst I2S_RX -pg 1 -lvl 3 -x 690 -y 80 -defaultsOSRD
+preplace inst GP1_Interconnect -pg 1 -lvl 2 -x 440 -y 90 -defaultsOSRD
+preplace inst GP0_Interconnect -pg 1 -lvl 2 -x 440 -y 250 -defaultsOSRD
+preplace inst Matrix_Driver -pg 1 -lvl 3 -x 690 -y 250 -defaultsOSRD
+preplace netloc GP0_Interconnect_M00_AXI 1 2 1 NJ 250
+preplace netloc I2S_RX_m_axis_aud 1 3 1 N 80
+preplace netloc Zynq_M_AXI_GP0 1 1 1 300J 220n
+preplace netloc Zynq_M_AXI_GP1 1 1 1 310 90n
+preplace netloc processing_system7_0_DDR 1 1 4 NJ 160 NJ 160 NJ 160 990J
+preplace netloc processing_system7_0_FIXED_IO 1 1 4 NJ 180 NJ 180 NJ 180 NJ
+preplace netloc smartconnect_0_M00_AXI 1 2 1 NJ 80
+preplace netloc smartconnect_0_M01_AXI 1 2 2 570J 140 810
+levelinfo -pg 1 0 160 440 690 900 1010
+pagesize -pg 1 -db -bbox -sgen -130 0 1180 320
+",
+   "Interfaces View_ScaleFactor":"1.17479",
+   "Interfaces View_TopLeft":"-121,-349",
+   "No Loops_ExpandedHierarchyInLayout":"",
+   "No Loops_Layers":"/Zynq_FCLK_RESET0_N:true|/rst_Zynq_50M_peripheral_aresetn:true|/Zynq_FCLK_CLK0:true|/CDMA_cdma_introut:true|/rst_Zynq_100M_peripheral_aresetn:true|/Zynq_FCLK_CLK3:true|",
+   "No Loops_Layout":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 8 -x 2360 -y 540 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 8 -x 2360 -y 570 -defaultsOSRD
+preplace portBus gnd -pg 1 -lvl 8 -x 2360 -y 480 -defaultsOSRD
+preplace portBus panel_ctrl_a -pg 1 -lvl 8 -x 2360 -y 90 -defaultsOSRD
+preplace portBus panel_ctrl_b -pg 1 -lvl 8 -x 2360 -y 120 -defaultsOSRD
+preplace portBus panel_data -pg 1 -lvl 8 -x 2360 -y 60 -defaultsOSRD
+preplace inst Zynq -pg 1 -lvl 5 -x 1430 -y 540 -swap {0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 73 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 34 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 119 113 120 115 117 118 116 114 112} -defaultsOSRD -pinDir DDR right -pinY DDR 0R -pinDir FIXED_IO right -pinY FIXED_IO 30R -pinDir USBIND_0 right -pinY USBIND_0 50R -pinDir S_AXI_HP0_FIFO_CTRL right -pinY S_AXI_HP0_FIFO_CTRL 70R -pinDir M_AXI_GP0 left -pinY M_AXI_GP0 80L -pinDir S_AXI_HP0 left -pinY S_AXI_HP0 0L -pinDir TTC0_WAVE0_OUT right -pinY TTC0_WAVE0_OUT 150R -pinDir TTC0_WAVE1_OUT right -pinY TTC0_WAVE1_OUT 110R -pinDir TTC0_WAVE2_OUT right -pinY TTC0_WAVE2_OUT 170R -pinDir M_AXI_GP0_ACLK left -pinY M_AXI_GP0_ACLK 100L -pinDir S_AXI_HP0_ACLK left -pinY S_AXI_HP0_ACLK 140L -pinBusDir IRQ_F2P left -pinBusY IRQ_F2P 160L -pinDir FCLK_CLK0 left -pinY FCLK_CLK0 120L -pinDir FCLK_CLK3 right -pinY FCLK_CLK3 130R -pinDir FCLK_RESET0_N right -pinY FCLK_RESET0_N 90R
+preplace inst rst_Zynq_100M -pg 1 -lvl 1 -x 170 -y 500 -swap {0 9 2 3 4 1 5 6 7 8} -defaultsOSRD -pinDir slowest_sync_clk right -pinY slowest_sync_clk 0R -pinDir ext_reset_in right -pinY ext_reset_in 200R -pinDir aux_reset_in left -pinY aux_reset_in 0L -pinDir mb_debug_sys_rst left -pinY mb_debug_sys_rst 20L -pinDir dcm_locked left -pinY dcm_locked 40L -pinDir mb_reset right -pinY mb_reset 20R -pinBusDir bus_struct_reset right -pinBusY bus_struct_reset 40R -pinBusDir peripheral_reset right -pinBusY peripheral_reset 60R -pinBusDir interconnect_aresetn right -pinBusY interconnect_aresetn 80R -pinBusDir peripheral_aresetn right -pinBusY peripheral_aresetn 100R
+preplace inst rst_Zynq_50M -pg 1 -lvl 6 -x 1830 -y 630 -swap {2 0 1 3 4 6 7 8 9 5} -defaultsOSRD -pinDir slowest_sync_clk left -pinY slowest_sync_clk 40L -pinDir ext_reset_in left -pinY ext_reset_in 0L -pinDir aux_reset_in left -pinY aux_reset_in 20L -pinDir mb_debug_sys_rst left -pinY mb_debug_sys_rst 60L -pinDir dcm_locked left -pinY dcm_locked 80L -pinDir mb_reset right -pinY mb_reset 20R -pinBusDir bus_struct_reset right -pinBusY bus_struct_reset 40R -pinBusDir peripheral_reset right -pinBusY peripheral_reset 60R -pinBusDir interconnect_aresetn right -pinBusY interconnect_aresetn 80R -pinBusDir peripheral_aresetn right -pinBusY peripheral_aresetn 0R
+preplace inst Peripheral_Interconnect -pg 1 -lvl 2 -x 480 -y 460 -swap {39 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 0 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 59 57 60 58 61} -defaultsOSRD -pinDir S00_AXI right -pinY S00_AXI 160R -pinDir M00_AXI right -pinY M00_AXI 0R -pinDir ACLK left -pinY ACLK 0L -pinDir ARESETN left -pinY ARESETN 120L -pinDir S00_ACLK left -pinY S00_ACLK 20L -pinDir S00_ARESETN left -pinY S00_ARESETN 140L -pinDir M00_ACLK left -pinY M00_ACLK 40L -pinDir M00_ARESETN left -pinY M00_ARESETN 160L
+preplace inst const_gnd -pg 1 -lvl 7 -x 2170 -y 480 -defaultsOSRD -pinBusDir dout right -pinBusY dout 0R
+preplace inst CDMA -pg 1 -lvl 3 -x 770 -y 320 -swap {47 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 0 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80} -defaultsOSRD -pinDir M_AXI right -pinY M_AXI 20R -pinDir S_AXI_LITE left -pinY S_AXI_LITE 140L -pinDir M_AXI_SG right -pinY M_AXI_SG 0R -pinDir m_axi_aclk left -pinY m_axi_aclk 160L -pinDir s_axi_lite_aclk left -pinY s_axi_lite_aclk 180L -pinDir s_axi_lite_aresetn left -pinY s_axi_lite_aresetn 200L -pinDir cdma_introut right -pinY cdma_introut 200R
+preplace inst Interrupt_Concat -pg 1 -lvl 4 -x 1060 -y 700 -defaultsOSRD -pinBusDir In0 left -pinBusY In0 0L -pinBusDir In1 left -pinBusY In1 20L -pinBusDir dout right -pinBusY dout 0R
+preplace inst AXI_BRAM_Controller -pg 1 -lvl 5 -x 1430 -y 60 -swap {0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 49 48} -defaultsOSRD -pinDir S_AXI left -pinY S_AXI 260L -pinDir BRAM_PORTA right -pinY BRAM_PORTA 0R -pinDir BRAM_PORTA.bram_addr_a right -pinY BRAM_PORTA.bram_addr_a 20R -pinDir BRAM_PORTA.bram_clk_a right -pinY BRAM_PORTA.bram_clk_a 40R -pinDir BRAM_PORTA.bram_wrdata_a right -pinY BRAM_PORTA.bram_wrdata_a 60R -pinDir BRAM_PORTA.bram_rddata_a right -pinY BRAM_PORTA.bram_rddata_a 80R -pinDir BRAM_PORTA.bram_en_a right -pinY BRAM_PORTA.bram_en_a 100R -pinDir BRAM_PORTA.bram_rst_a right -pinY BRAM_PORTA.bram_rst_a 120R -pinDir BRAM_PORTA.bram_we_a right -pinY BRAM_PORTA.bram_we_a 140R -pinDir BRAM_PORTB right -pinY BRAM_PORTB 160R -pinDir BRAM_PORTB.bram_addr_b right -pinY BRAM_PORTB.bram_addr_b 180R -pinDir BRAM_PORTB.bram_clk_b right -pinY BRAM_PORTB.bram_clk_b 200R -pinDir BRAM_PORTB.bram_wrdata_b right -pinY BRAM_PORTB.bram_wrdata_b 220R -pinDir BRAM_PORTB.bram_rddata_b right -pinY BRAM_PORTB.bram_rddata_b 240R -pinDir BRAM_PORTB.bram_en_b right -pinY BRAM_PORTB.bram_en_b 260R -pinDir BRAM_PORTB.bram_rst_b right -pinY BRAM_PORTB.bram_rst_b 280R -pinDir BRAM_PORTB.bram_we_b right -pinY BRAM_PORTB.bram_we_b 300R -pinDir s_axi_aclk left -pinY s_axi_aclk 360L -pinDir s_axi_aresetn left -pinY s_axi_aresetn 280L
+preplace inst Matrix_Driver -pg 1 -lvl 7 -x 2170 -y 60 -swap {0 15 1 2 3 4 5 6 7 8 9 10 11 12 13 14 16 17} -defaultsOSRD -pinDir matrix_clk left -pinY matrix_clk 0L -pinDir resetn left -pinY resetn 320L -pinBusDir bram_addr_a left -pinBusY bram_addr_a 20L -pinDir bram_clk_a left -pinY bram_clk_a 40L -pinBusDir bram_wrdata_a left -pinBusY bram_wrdata_a 60L -pinBusDir bram_rddata_a left -pinBusY bram_rddata_a 80L -pinDir bram_en_a left -pinY bram_en_a 100L -pinDir bram_rst_a left -pinY bram_rst_a 120L -pinBusDir bram_we_a left -pinBusY bram_we_a 140L -pinBusDir bram_addr_b left -pinBusY bram_addr_b 180L -pinDir bram_clk_b left -pinY bram_clk_b 200L -pinBusDir bram_wrdata_b left -pinBusY bram_wrdata_b 220L -pinBusDir bram_rddata_b left -pinBusY bram_rddata_b 240L -pinDir bram_en_b left -pinY bram_en_b 260L -pinDir bram_rst_b left -pinY bram_rst_b 280L -pinBusDir bram_we_b left -pinBusY bram_we_b 300L -pinBusDir panel_data right -pinBusY panel_data 0R -pinBusDir panel_ctrl right -pinBusY panel_ctrl 30R
+preplace inst DMA_Interconnect -pg 1 -lvl 4 -x 1060 -y 320 -swap {106 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 70 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 34 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 0 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 149 144 150 145 151 146 152 147 153 148} -defaultsOSRD -pinDir S00_AXI left -pinY S00_AXI 20L -pinDir M00_AXI right -pinY M00_AXI 220R -pinDir M01_AXI right -pinY M01_AXI 0R -pinDir S01_AXI left -pinY S01_AXI 0L -pinDir ACLK left -pinY ACLK 140L -pinDir ARESETN left -pinY ARESETN 40L -pinDir S00_ACLK left -pinY S00_ACLK 160L -pinDir S00_ARESETN left -pinY S00_ARESETN 60L -pinDir M00_ACLK left -pinY M00_ACLK 180L -pinDir M00_ARESETN left -pinY M00_ARESETN 80L -pinDir M01_ACLK left -pinY M01_ACLK 200L -pinDir M01_ARESETN left -pinY M01_ARESETN 100L -pinDir S01_ACLK left -pinY S01_ACLK 220L -pinDir S01_ARESETN left -pinY S01_ARESETN 120L
+preplace netloc CDMA_cdma_introut 1 3 1 900 520n
+preplace netloc Zynq_FCLK_CLK0 1 1 4 340 400 640 580 920 640 1200
+preplace netloc Zynq_FCLK_CLK3 1 5 2 1660 60 NJ
+preplace netloc Zynq_FCLK_RESET0_N 1 1 5 NJ 700 640J 600 NJ 600 1220J 480 1640
+preplace netloc const_gnd_dout 1 7 1 NJ 480
+preplace netloc rst_Zynq_100M_peripheral_aresetn 1 1 4 340 680 620 260 920 260 1200
+preplace netloc xlconcat_0_dout 1 4 1 NJ 700
+preplace netloc Matrix_Driver_panel_ctrl 1 7 1 2340 90n
+preplace netloc Matrix_Driver_panel_data 1 7 1 NJ 60
+preplace netloc rst_Zynq_50M_peripheral_aresetn 1 6 1 2000 380n
+preplace netloc AXI_BRAM_Controller_bram_rst_a 1 5 2 N 180 NJ
+preplace netloc AXI_BRAM_Controller_bram_en_a 1 5 2 N 160 NJ
+preplace netloc Matrix_Driver_bram_rddata_a 1 5 2 N 140 NJ
+preplace netloc AXI_BRAM_Controller_bram_wrdata_a 1 5 2 N 120 NJ
+preplace netloc AXI_BRAM_Controller_bram_clk_a 1 5 2 N 100 NJ
+preplace netloc AXI_BRAM_Controller_bram_addr_a 1 5 2 N 80 NJ
+preplace netloc AXI_BRAM_Controller_bram_we_a 1 5 2 N 200 NJ
+preplace netloc AXI_BRAM_Controller_bram_addr_b 1 5 2 N 240 NJ
+preplace netloc AXI_BRAM_Controller_bram_clk_b 1 5 2 N 260 NJ
+preplace netloc AXI_BRAM_Controller_bram_wrdata_b 1 5 2 N 280 NJ
+preplace netloc Matrix_Driver_bram_rddata_b 1 5 2 N 300 NJ
+preplace netloc AXI_BRAM_Controller_bram_en_b 1 5 2 N 320 NJ
+preplace netloc AXI_BRAM_Controller_bram_rst_b 1 5 2 N 340 NJ
+preplace netloc AXI_BRAM_Controller_bram_we_b 1 5 2 N 360 NJ
+preplace netloc Zynq_DDR 1 5 3 NJ 540 NJ 540 NJ
+preplace netloc Zynq_FIXED_IO 1 5 3 NJ 570 NJ 570 NJ
+preplace netloc Zynq_M_AXI_GP0 1 2 3 N 620 NJ 620 NJ
+preplace netloc Zynq_axi_periph_M00_AXI 1 2 1 N 460
+preplace netloc axi_interconnect_0_M00_AXI 1 4 1 N 540
+preplace netloc axi_interconnect_0_M01_AXI 1 4 1 N 320
+preplace netloc S00_AXI_1 1 3 1 N 340
+preplace netloc S01_AXI_1 1 3 1 N 320
+levelinfo -pg 1 0 170 480 770 1060 1430 1830 2170 2360
+pagesize -pg 1 -db -bbox -sgen 0 0 2520 780
+",
+   "No Loops_ScaleFactor":"0.531321",
+   "No Loops_TopLeft":"-120,-491",
+   "Reduced Jogs_Layers":"/Zynq_FCLK_RESET0_N:true|/rst_Zynq_50M_peripheral_aresetn:true|/Zynq_FCLK_CLK0:true|/CDMA_cdma_introut:true|/rst_Zynq_100M_peripheral_aresetn:true|/Zynq_FCLK_CLK3:true|/Audio_PLL_aud_clk:true|/Zynq_FCLK_RESET0_N1:true|/I2S_RX_irq:true|/microblaze_0_Clk:true|/I2S_TX_irq:true|/rst_Zynq_100M_mb_reset:true|/rst_Zynq_62M_peripheral_aresetn:true|/rst_Audio_PLL_12M_peripheral_reset:true|/Zynq_FCLK_CLK1:true|/mdm_1_debug_sys_rst:true|/rst_Zynq_100M_bus_struct_reset:true|/i2s_receiver_0_irq:true|/rst_Zynq_200M_peripheral_aresetn:true|/i2s_transmitter_0_irq:true|/Zynq_FCLK_CLK2:true|/rst_Zynq_62M_1_peripheral_aresetn:true|",
+   "Reduced Jogs_ScaleFactor":"0.542325",
+   "Reduced Jogs_TopLeft":"-122,-513",
+   "commentid":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 6 -x 1820 -y 60 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 6 -x 1820 -y 90 -defaultsOSRD
+preplace portBus PANEL_DATA -pg 1 -lvl 6 -x 1820 -y 660 -defaultsOSRD
+preplace portBus PANEL_ADDR -pg 1 -lvl 6 -x 1820 -y 690 -defaultsOSRD
+preplace portBus PANEL_CTRL -pg 1 -lvl 6 -x 1820 -y 720 -defaultsOSRD
+preplace portBus GND -pg 1 -lvl 6 -x 1820 -y 830 -defaultsOSRD
+preplace inst GND_CONST -pg 1 -lvl 5 -x 1560 -y 830 -defaultsOSRD
+preplace inst Interrupt_Concat -pg 1 -lvl 4 -x 1140 -y 170 -defaultsOSRD
+preplace inst Zynq -pg 1 -lvl 5 -x 1560 -y 130 -defaultsOSRD
+preplace inst DMA_Interconnect -pg 1 -lvl 2 -x 510 -y 500 -defaultsOSRD
+preplace inst DDR_Interconnect -pg 1 -lvl 4 -x 1140 -y 570 -defaultsOSRD
+preplace inst System_Reset_100MHZ -pg 1 -lvl 1 -x 200 -y 480 -defaultsOSRD
+preplace inst System_Reset_62MHZ -pg 1 -lvl 4 -x 1140 -y 390 -defaultsOSRD
+preplace inst Matrix_Driver -pg 1 -lvl 5 -x 1560 -y 690 -defaultsOSRD
+preplace inst MatrixDMA -pg 1 -lvl 3 -x 800 -y 580 -defaultsOSRD
+preplace netloc Matrix_Driver_PANEL_ADDR 1 5 1 NJ 690
+preplace netloc Matrix_Driver_PANEL_CTRL 1 5 1 1780J 710n
+preplace netloc Matrix_Driver_PANEL_DATA 1 5 1 1790J 660n
+preplace netloc xlconcat_0_dout 1 4 1 NJ 170
+preplace netloc xlconstant_0_dout 1 5 1 NJ 830
+preplace netloc Zynq_FCLK_RESET0_N 1 0 6 20 370 NJ 370 NJ 370 950 290 NJ 290 1770
+preplace netloc System_Reset_100MHZ_peripheral_aresetn 1 1 4 380 580 640J 720 970 690 NJ
+preplace netloc System_Reset_62MHZ_peripheral_aresetn 1 4 1 1310 430n
+preplace netloc Zynq_FCLK_CLK0 1 0 6 30 580 370 590 650J 730 960 660 1340 270 1790
+preplace netloc Zynq_FCLK_CLK1 1 3 3 970 280 1330 280 1780
+preplace netloc processing_system7_0_DDR 1 5 1 NJ 60
+preplace netloc processing_system7_0_FIXED_IO 1 5 1 1800J 80n
+preplace netloc Zynq_M_AXI_GP0 1 1 5 370 260 NJ 260 NJ 260 NJ 260 1800
+preplace netloc DDR_Interconnect_M00_AXI 1 4 1 1320 110n
+preplace netloc MatrixDMA_0_M_AXI_DDR 1 3 1 N 550
+preplace netloc DMA_Interconnect_M00_AXI 1 2 1 N 500
+preplace netloc MatrixDMA_0_M_AXI_BUFFER 1 3 2 950 650 NJ
+levelinfo -pg 1 0 200 510 800 1140 1560 1820
+pagesize -pg 1 -db -bbox -sgen 0 0 1990 890
+"
+}
+{
+   "da_axi4_cnt":"90",
+   "da_board_cnt":"18",
+   "da_bram_cntlr_cnt":"2",
+   "da_clkrst_cnt":"119",
+   "da_mb_cnt":"3",
+   "da_ps7_cnt":"3"
+}
